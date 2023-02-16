@@ -1,0 +1,67 @@
+*{
+    background-color: rgb(11, 10, 10);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+i,.navbar .navbar-brand p{
+    font-size: 1.5em;
+}
+.homeContentPic img{
+    height:500px;
+}
+.greetxText h3{
+    font-size: 4em;
+    word-spacing: 15px;
+}
+.aButton a,button{
+    color: white;
+    border-bottom: 2px solid rgb(117, 208, 117);
+    font-size: 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 2em;
+    letter-spacing: 2px;
+
+}
+#home .container,.contact .container{
+    border-bottom: 2px solid rgb(215, 212, 212);
+}
+.card{
+    background-color:rgb(11, 10, 10);
+}
+.contacttext p{
+    margin-right: 5em;
+}
+input,textarea{
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+.footerIcons i{
+    font-size: 1em;
+    margin: 10px;
+    margin-top: 1em;
+}
+footer h4,.footerIcons{
+    margin-top: 1em;
+}
+img{
+    filter: blur(0.5);
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+button{
+    margin-top: 2em;
+    font-size: 2em;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+title{
+    color: red;
+    font-size: 1em;
+}

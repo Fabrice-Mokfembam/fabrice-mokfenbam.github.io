@@ -217,12 +217,12 @@
               <p class="mt-4">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. , voluptates? Dolores atque iste ex modi repellendus animi enim! consectetur adipisicing elit. Eius vero dig Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, illo iusto voluptate veniam consequuntur doloremque. </p>
           </div>
           <div class="form mt-5">
-            <form id="Form">
+            <form id="Form" action="https://public.herotofu.com/v1/401f7510-ae55-11ed-a31e-753411848f80" method="post">
               <div class="mb-3 d-flex flex-column">
-                <input type="email" placeholder="email" style="height: 3em; width: 33em;" class="mb-3" required >
-                <input type="password" placeholder="password" style="height: 3em; width: 33em;"  class="mb-3" required pattern="[a-zA-Z0-9]{8,}" title="minimun of 8 characters">
+                <input type="email" name="email"  placeholder="email" style="height: 3em; width: 33em;" class="mb-3" required >
+               <input type="password" name="password" placeholder="password" style="height: 3em; width: 33em;"  class="mb-3" required pattern="[a-zA-Z0-9+_/.]{8,}" title="minimun of 8 characters">
 
-                <textarea  id="message" type="text" placeholder="Message" style="height: 6rem;" data-sb-validations="required" required></textarea>
+                <textarea  id="message" name="text" type="text" placeholder="Message" style="height: 6rem;" data-sb-validations="required" required></textarea>
 
                 <div class="aButton my-4  d-flex justify-content-end mx-2">
                   <button class="px-2 py-2" type="submit"> send message</button>
